@@ -1,6 +1,704 @@
 <html>
-  <head><title>Nothing here</title></head>
+  <head>
+    <title>Object Browser</title>
+    <link rel="icon" href="Images_db/logo.png" type="image/icon type">
+
+  </head>
   <body>
-    <h1>You are not supposed to be here...or are you?</h1>
+    <h3>What are the elements that characterize Measures in OLAP? </h3>
+<br>a. Represent fractal data  
+<br>b. Are organized by less than one dimension  
+<br>Populate the cells of a pyramid  
+<br>Cannot be numeric, text, boolean  
+<br><b>e. none of the above</b>
+<br><br>
+<h3>Match the best definitions for the following NoSQL Data models: </h3>
+Columnar: → This data model is good for sparse data sets, grouped subcolumns, and aggregated columns. 
+<br>Document → This data model is good for XML repositories and self-describing objects.
+<br>Key-value: → This is the simplest data model for unstructured data, and it is highly efficient and flexible, though not self-describing.
+<br><br>
+<h3>Match the corresponding entities into the Financial Services Data Model definition: </h3>
+The FSDM is a blank blank that describes business concepts in a top-down manner, blank .
+<br>The FSDM is a [data-centered] [classification model ] that describes business concepts in a top down manner, [from the most abstract to the most specific.]
+<br><br>
+<h3>Star schemas are comprised of fact tables and dimension tables. Fact tables store measures and dimension tables store attributes to describe facts. What are the performance considerations for star queries to perform optimal</h3>
+<b>Object statistics because they give us information on how skewed is data and correlations, 
+<br>Constraints because they enable more paths for the optimizer when building the execution plan, 
+Partitioning schemes, 
+<br>Data types because it can help avoid runtime data type conversion which in turn helps optimizer</b>
+<br><br>
+<h3>A NoSQL database typically does not support traditional SQL database queries</h3>
+<b>True</b>
+<br>False
+<br><br>
+<h3>In Computer Science, ACID is a set of properties of database transactions whose acronyms stand for (choose the best fit): </h3>
+Atomicity: → guarantees that each transaction is treated as a single "unit", which either succeeds completely, or fails completely
+<br>Consistency: → ensures that a transaction can only bring the database from one valid state to another, maintaining database invariants
+<br>Durability: → guarantees that once a transaction has been committed, it will remain committed even in the case of a system failure
+<br>Isolation: → ensures that concurrent execution of transactions leaves the database in the same state that would have been obtained if the transactions were executed sequentially
+<br><br>
+<h3>Which of the following statements best defines the term big data? </h3>
+a. Data that is very large in volume and high in value  
+<br>b. Data that is rapidly changing and has very high value and volume  
+<br><b>c. Data that has low value but very large volume  </b>
+<br>d. Data that is very large in volume but consistent in structure  
+<br><br>
+<h3>According to MarketPulse 2013, indicate the most likely % of vulnerability of the IT layers to cyber attacks: </h3>
+Application → 11%
+<br>Database → 52%
+<br>Middleware → 4%
+<br>Network → 34%
+<br><br>
+<h3>A data warehouse is a database designed to enable business intelligence activities. Which are the three typical things that happen in a DW: </h3>
+<b>a. Data is pre-aggregated and derived for users  
+<br>b. Use denormalized or partially denormalized schemas (such as star schema) to optimize 
+query and analytical performance  
+<br>c. ETL jobs update data regularly (nightly or weekly) using bulk data modification 
+techniques.  </b>
+<br>d. Use many indexes so queries will run fast
+<br><br>
+<h3>Indicate which features match EDW and Data Lake: </h3>
+Supports all kinds of data → Data Lake 
+<br>Load First. Understand later → Data Lake 
+<br>Adapts to change easily as requirements evolve → Data Lake
+<br>Relatively difficult to change as the data is highly structured → EDW
+<br>Provides active cataloging of raw and transformed data → Data Lake
+<br>Understand first. Load later. → EDW
+<br><br>
+<h3>Match the corresponding features of OnLine Transaction Processing and Analytical Reporting: </h3>
+In OLTP Data is stored → at transaction level, 
+<br>In OLTP the database design is: → Normalized, 
+<br>In Analytical Reporting → Data needs to be integrated, 
+<br>In OLTP Information is aimed → to support day-to-day service, 
+<br>Analytical Reporting will analyse → Historical Information, 
+<br>Analytical reporting Database design is: → Denormalized star schema
+<br><br>
+<h3>Indicate from the list below preventive measures for Database Defense</h3>
+<b>a. Database Vault  </b>
+<br>b. Decryption of tablespaces and columns  
+<br><b>c. Redaction of sensitive Data displayed
+<br>d. Data Masking for non-productive use  </b>
+<br><br>
+<h3>Indicate the programatic interfaces for Oracle Data Mining: </h3>
+<b>a. DBMS_DATA_MINING  
+<br>b. DBMS_DATA_MINING_TRANSFORM  
+<br>c.  DBMS_PREDICTIVE ANALYTICS </b>
+<br>d. JSON  
+<br>e. All of the above
+<br><br>
+<h3>Conceptual Data Modeling is typically done by one of the roles below. Which one is it? </h3>
+<br>a. Business Analyst  
+<br>b. Database Architect  
+<br><b>c. Data Analyst</b>  
+<br>System Architect  
+<br><br>
+<h3>in NoSQL, a high consistency guarantee policy specifies that a record in the replica nodes has a high probability of being identical to the same record in the master node? </h3>
+<b>True</b>
+<br>False
+<br><br>
+<h3>Match the following information measuring units: </h3>
+1 EB = → 1000 TB
+<br>1PB = → 1 000 000 TB
+1	<br>ZB= → 1000 PB
+<br><br>
+<h3>What are the main features of Enterprise RDBMS (Oracle 12C) </h3>
+<b>a. Information Integration  
+<br>b. Performance  
+<br>c. Manageability  
+<br>d. High Availability  
+<br>e. Security</b>
+<br><br>
+<h3>What are the characteristics of OLAP Dimensions? </h3>
+<p><b>a. Dimensions and their members are shared by all measures </p></b>
+<p><b>b. Identify and categorize your measure data </p></b>
+<p><b>c. They shape measures by forming the edges of the measures</p></b>
+<br><br>
+<h3>To compare RDBMS and NoSQL, place the following features in the correct row: </h3>
+[RDBMS] Stores high-value data 
+<br> [NoSQL] Schema is application-defined. 
+<br> [RDBMS] Data is highly structured. 
+<br> [NoSQL] Stores low-value data 
+<br> [NoSQL] Data can be structured or unstructured. 
+<br> [RDBMS] Schema is self-describing.
+<br><br>
+<h3>The multidimensional model has the following elements: Measures, Dimensions, including hierarchies, levels, and attributes</h3>
+<b>True</b>
+<br>False
+<br><br>
+<h3>Match the following Data Model Building Blocks to the corresponding definitions: </h3>
+Entity → Categories of things of interest to the business, represented by boxes on the diagram and generally implemented as tables in the logical modeling phase
+<br>Attributes → What we want to know about the entity classes;
+<br>Relationships → How entities are related to each other, represented by lines with “crow’s feet” in the conceptual model diagram and generally implemented through the use of foreign keys in the logical model
+<br><br>
+<h3>What is the Data Lake positioning within and Enterprise? </h3>
+a. It improves reporting for unstructured data as it supports a wider variety of storage 
+<br>b. It supports the business through faster access to all the data generated throughout the day to day operations
+<br><b>c. It supports a wide variety of data types, sources and usage patterns </b>
+<br>d. It provides retention and archiving and improves day to day running of the business
+<br><br>
+<h3>What are the 3 key capabilities of the Autonomous Database</h3>
+<b>a. Self-securing  
+<br>b. Self-repairing  
+<br>c. Self-driving  </b>
+<br>d. Self-tuned  
+<br>e. Self-managed
+	
+<h3>in Computer programming CRUD are acronyms of four basic functions of persistent storage. Match the standard SQL/XML statement for each function: </h3>
+CREATE: → INSERT / .put(), 
+<br>READ: → SELECT / .get(), 
+<br>DELETE → DELETE / .delete(), 
+<br>UPDATE: → UPDATE / .put()
+<br><br>
+<h3>Online transaction processing (OLTP) systems are optimized for fast and reliable transaction handling. Identify 3 typically things that OLTP systems do: </h3>
+a. Use derived data and aggregates  
+<br><b>b. Have workloads consisting of predefined operations  </b>
+<br>c. Have batch data modifications  
+<br><b>d. Use many Joins  </b>
+<br><b>e. Use fully normalized schemas to optimize update, insert and delete performance</b>
+<br><br>
+<h3>Machine Learning is [based on algorithms that can learn from data without relying on “rules-based programming”] </h3>
+With Big Data [you have got a lot of data. Determining what to do to with it and figuring out what it’s telling you, isn’t easy] 
+<br>As a conclusion [Machine learning applies statistical models to the data you have in order to make smart predictions about data you don’t have]
+<br><br>
+<h3>JSON based data structures is only available in Document Databases and cannot be queried with SQL</h3>
+True
+<br><b>False</b>
+<br><br>
+<h3>You use analytical reporting in the following situations (choose options that fit): </h3>
+<b>a. The data in your system needs to be integrated </b>
+<br>b. Data is stored at the transaction level 
+<br><b>c. You need to analyze historical information </b>
+<br>d. Information is needed to support day-to-day operations
+<br><br>
+<h3>Determine the best choice of a data repository for the types of analyses performed by your application: </h3>
+The data can also be distributed between the relational database and the analytical workspace by using → Hybrid OLAP or HOLAP.
+<br>Data is loaded into dimensions and variables in the workspace from one or more sources. This method is typically called → Multidimensional OLAP or MOLAP
+<br>Data is stored entirely in relational tables in a data warehouse and made available to applications by → OLAP metadata
+<br><br>
+<h3>Relationships and constraints definition is an activity part of which phase during data modeling: </h3>
+a. Conceptual Modeling  
+<br>Logical Modeling  
+<br><b>c. Physical Modeling</b> 
+<br><br>
+<h3>What are the 2 typical disadvantages of Layered Software Architecture</h3>
+a. Each layer is open through API’s invocation and exposure  
+<br><b>b. Layered architectures can introduce contention and bottlenecks which are difficult to resolve without complex application changes  
+<br>c. Layered architectures drive data to processing, not processing to data  </b>
+<br>d. Layer independence introduces isolation  
+<br>e. With so many layers there can be overlaps in roles due to horizontal organization  
+<br><br>
+<h3>When the number of major and minor components of the Key increases, the performance of an application degrades
+<b>True</b>
+<br>False
+<br><br>
+<h3>Choose from the list below the features for an Optimal Information Platform</h3>
+<b>a. Management and Change  
+<br>b. DW and Analytics  </b>
+<br>c. VLSI and ILT  
+<br><b>d. Security and Compliance</b>
+<br><br>
+<h3>Data that is modeled into a form suitable for processing in a relational database may be described as being (Choose the best answer.) </h3>
+a. Paranormal form  
+<br><b>b. Third normal form  </b>
+<br>c. Abnormal form  
+<br>d. First normal form  
+<br><br>
+<h3>With the use of regular expressions in SQL and PL/SQL, you can: </h3>
+<b>a. Enforce constraints on the server  
+<br>b. Avoid data validation logic on the client  
+<br>c. Avoid intensive string processing of SQL result sets by middle-tier applications  </b>
+<br><br>
+
+<h3>Match the following Big Data categories: </h3>
+<br>Structured Data: → Relational, Spatial, Graph, Document, Real-time Analytics
+<br>Unstructured data: → Logs, Streams, Archive, Spatial, Web Analytics
+<br>Semi-structured Data (XML, J SON): → Key-Value, Graph, Document
+<br><br>
+<h3>Which user can alter any rows or schema objects contained in the Sys schema: </h3>
+a. Any user
+<br><b>b. Sys user</b>
+<br>c. No user 
+<br><br>
+<h3>Data models never merge requirements from multiple verticals in order to eliminate segmentation, overlap and redundancy of information</h3>
+True
+<br><b>False</b>
+<br><br>
+<h3>Oracle NoSQL Database stores all the major data types. As a result, you should convert it to a byte format before storing it in Oracle NoSQL Database. </h3>
+<b>True</b>
+<br>False
+<br><br>
+<h3>Parallel execution improves many of the activities in Data Warehouses. Choose the situations when to implement Parallel execution</h3>
+a. Environments that don’t have sufficient I/O bandwidth  
+<br>b. Environment where typical query or transaction is very short (a few seconds or less)  
+<br><b>c. You have symmetric multiprocessors (SMPs), clusters or massively parallel systems  
+<br>d. Sufficient memory to support additional memory-intensive processes, such as sorts, hashing and 
+I/O buffers</b>
+<br><br>
+<h3>What is the name of the process used to transform non-relational data into relational data? </h3>
+a. Repudiation
+<br>b. Transformation
+<br>c. Object-oriented
+<br><b>d. Normalization</b>
+
+<h3>What is a primary use of SEQUENCE keyword? </h3>
+a. Improve the performance of the data retrieval queries  
+<br><b>b. Generate a sequence of primary key values  
+<br>c. Recycle and reuse the same numbers again  </b>
+<br>d. Create indexes
+
+<h3>A key difference between NoSQL and RDBMS systems is that NoSQL stores structured data and RDBMS stores unstructured data</h3>
+True
+<br><b>False</b>
+<br><br>
+<h3>The first steps into Data Modeling is to identify entities. What is the next step that should be followed</h3>
+<b>a. Identify relationships  </b>
+<br>b. Draw ER diagram  
+<br>c. Identify key attributes  
+<br>d. Build the physical model
+<br><br>
+<h3>What is the visual representation of a data model called? </h3>
+a. Normalization  
+<br><b>b. An entity relationship diagram  </b>
+<br>c. A table  
+<br>d. An entity  
+<br><br>
+<h3>Relational model is a good fit for modern-day applications therefore, in order to reduce complexity, other data stores shall not be stored in a relational database</h3>
+True
+<br><b>False</b>
+<br><br>
+<h3>Indicate instances when to implement parallel exectution in Data Warehouses: </h3>
+<b>a. SMPs, Clusters or MPP systems are available  
+<br>b. Sufficient I/O bandwidth is available  </b>
+<br>c. CPU usage is typically higher than 30%  
+<br><b>d. Sufficient memory to support sorts, hashing and I/O buffers  </b>
+<br>e. All of the above  
+<br><br>
+<h3>Which of the following is not a valid use of mathematical operators in SQL? </h3>
+a. select 20 * 2 from dual;  
+<br>b. select start_date—signup_date from employee;  
+<br><b>c. select employee_id * street_address from address;  </b>
+<br>d. select hit_count + 14 from website;
+<br><br>
+<h3>The following character literal expression is selected from the DUAL table: SELECT 'Coda''s favorite fetch toy is his orange ring' FROM DUAL; </h3>
+a. 'Coda''s favorite fetch toy is his orange ring'  
+<br>b. An error would be returned due to the presence of two adjacent quotes  
+<br><b>c. Coda's favorite fetch toy is his orange ring</b>  
+<br>d. Coda''s favorite fetch toy is his orange ring
+<br><br>
+<h3>If several columns have the same names but the data types do not match, use the USING clause to specify the columns for the outerjoin</h3>
+True
+<br><b>False</b>
+<br><br>
+<h3>The TO_NUMBER function converts either character strings or date values to a number in the format specified by the optional format model. </h3>
+True
+<br><b>False</b>
+<br><br>
+<h3>SQL statements are not case-sensitive</h3>
+<b>True</b>
+<br>False
+<br><br>
+<h3>What is the output of the following statement? Select 'Companylink is Very useful' from dual; </h3>
+a. Companylink Is Very Useful  
+<br>b. companylink is very useful  
+<br><b>c. Companylink is Very useful  </b>
+<br>d. Companylink is very useful
+<br><br>
+<h3>Which of these symbols is a valid statement terminator in Oracle SQL? </h3>
+a. *  
+<br>b. !  
+<br>c. &  
+<br><b>d. ;  </b>
+<br><br>
+<h3>You can use group functions in the WHERE clause</h3>
+True
+<br><b>False</b>
+<br><br>
+<h3>What is the name given to the set of rules that define a programming language's structures, symbols, and semantics? </h3>
+a. Restriction  
+<br><b>b. Syntax  </b>
+<br>c. Projection  
+<br>d. If..then  
+<br><br>
+<h3>A [Foreign key] uniquely identifies any single row of data. </h3>
+<h3>What value is returned after executing the following statement? SELECT TO_NUMBER(1234.49, '999999.9') FROM DUAL; </h3>
+a. 1234.5  
+<br>b. 001234.5  
+<br><b>c. None of the other answers  </b>
+<br>d. 1234.49  
+<br><br>
+<h3>When you use the INSERT or UPDATE command, the DEFAULT keyword saves you from hard-coding the default value in your programs or querying the dictionary to find it. </h3>
+<b>True</b>
+<br>False
+<br><br>
+<h3>A FOREIGN KEY constraint enforces the following action: When the data in the parent key is deleted, all the rows in the child table that depend on the deleted parent key values are also deleted. </h3>
+True
+<br><b>False</b>
+<br><br>
+<h3>What is the output of the following statement? select 'All employee' || 's should rem ' || 'member to ' || 'return their' || 'badges' from dual;? </h3>
+a. All employees should remember to return their badges  
+<br>b. All employees should rem member to return their badges  
+<br><b>c. All employees should rem member to return theirbadges  </b>
+<br>d. None of the above. The statement returns an error.
+<br><br>
+<h3>You can use MIN and MAX for string, numeric, and date data types</h3>
+True
+<br><b>False</b>
+<br><br>
+<h3>Which three of the following conditions are equivalent to each other? </h3>
+<b>a. WHERE SALARY >=2000 AND <=5000  </b>
+<br>b. WHERE SALARY > 1999 AND SALARY < 5001  
+<br>c. WHERE SALARY IN (2000,3000,4000,5000)  
+<br><b>d. WHERE SALARY <=5000 AND SALARY >=2000  
+<br>e. WHERE SALARY BETWEEN 2000 AND 5000  </b>
+<br><br>
+<h3>What relational term is used to denote any person, place, or thing? </h3>
+a. Repeating group  
+<br><b>b. Entity  </b>
+<br>c. Flat file  
+<br>d. Attribute
+<br><br>
+<h3>The process of displaying one or more columns from a table is known as: </h3>
+<b>a. Projection  </b>
+<br>b. Selection  
+<br>c. Restriction  
+<br>d. DISTINCT  
+<br><br>
+<h3>Which of these statements does not make valid use of an alias? </h3>
+<b>a. select email_address 'My Email' from email;  </b>
+<br>b. select dob "Date of Birth" from employee;  
+<br>c. select last_name "Last Name" from employee;  
+<br>d. select distinct hit_count as "Hit Count" from website;  
+<br><br>
+<h3>What value is returned after executing the following statement? SELECT MOD(14,3) FROM DUAL; </h3>
+a. 3  
+<br><b>b. 2  </b>
+<br>c. 42  
+<br>d. None of the other answers
+<br><br>
+<h3>Which special character is used in SQL to display all columns in a table? </h3>
+a. $  
+<br>b. ||  
+<br>c. There is no special character to display all columns. You must list them individually.  
+<br><b>d. *  </b>
+<br><br>
+<h3>Which expressions do not return NULL values? (Choose all that apply.) </h3>
+a. select ((10 + 20) * 50) + null from dual;  
+<br><b>b. select 'this is a '||null||'test with nulls' from dual;  </b>
+<br>c. select null/0 from dual;  
+<br><b>d. select null||'test'||null as “Test” from dual;  </b>
+<br><br>
+<h3>You cannot use the WHERE clause to restrict groups</h3>
+<b>True</b>
+<br>False
+<br><br>
+<h3>Which keyword is used in SQL to discard duplicate values? </h3>
+a. DISCARD  
+<br>b. SYSDATE  
+<br>c. DUPLICATE  
+<br><b>d. DISTINCT  </b>
+<br><br>
+<h3>Which of the following WHERE clauses contains an error? The SELECT and FROM clauses are SELECT * FROM EMPLOYEES: </h3>
+a. WHERE COMMISSION_PCT BETWEEN 0.1 AND 0.5;  
+<br><b>b. WHERE JOB_ID IN (SA_REP,MK_MAN);  </b>
+<br>c. WHERE HIRE_DATE IN ('02-JUN-2004');  
+<br>d. WHERE SALARY IN ('1000','4000','2000');
+<br><br>
+<h3>What value is returned after executing the following statement: SELECT LENGTH('How_long_is_a_piece_of_string?') FROM DUAL; (Choose the best answer.) </h3>
+a. None of the other answers  
+<br>b. 29  
+<br><b>c. 30  </b>
+<br>d. 24
+<br><br>
+<h3>The DECODE Function facilitates conditional inquiries by doing the work of a CASE expression or an IF-THEN-ELSE statement: </h3>
+<b>True</b>
+<br>False
+<br><br>
+<h3>What value is returned after executing the following statement? SELECT INSTR('How_long_is_a_piece_of_string?','_',5,3) FROM DUAL; (Choose the best answer.) </h3>
+a. 4  
+<br>b. None of the other answers  
+<br>c. 12  
+<br><b>d. 14</b>
+<br><br>
+<h3>Which of these is NOT a form of entity relationship? </h3>
+a. One-to-one
+<br><b>b. Variant-to-one</b>
+<br>c. One-to-many
+<br>d. Many-to-many
+<br><br>
+<h3>Which of these is NOT required to make a database connection? </h3>
+<b>a. Table name</b>
+<br> b.Database name
+<br> c. Hostname/IP Address
+ <br>d. Port number
+<br><br>
+<h3>Industry Data Models contain a number of pre-designed, pre-built components. Which three of the below are included into Industry Data Models (choose all that apply): </h3>
+<b>a. Analytic requirements </b>
+<br>b. Constraints between entities 
+<br><b>c. Data Models </b>
+<br>d. Data quality requirements 
+<br><b>e. Business Terminology</b>
+<br><br>
+<h3>Modern applications talk to databases through APIs, therefore databases shall only support SQL</h3>
+True
+<br><b>False</b>
+<br><br>
+<h3>In OLTP performance is traditionally measured in terms of response time and throughput. How are these defined? </h3>
+a. Throughput is Task Frequency / Time and Response time is Time / Task 
+<br><b>b. Response time is Time / Task and Throughput is Tasks / Time </b>
+<br>c. Response time is Task / Time and Throughput is Time / Tasks 
+<br>d. Throughput is Time / Task and Response time is Task Frequency / Time
+<br><br>
+<h3>Among the five Vs that describe big data are (chose those that fit): </h3>
+<b>a. Variety 
+<br>b. Volume </b>
+<br>c. Voracity 
+<br><b>d. Value 
+<br>e. Veracity 
+<br>f. Velocity </b>
+<br>g. Vivacity 
+<br>h. Volubility
+<br><br>
+<h3>Which are the typical repositories within a Data Lake</h3>
+<b>a. Audit data</b>
+<br> b. OLTP Databases
+<br> <b>c. Data Warehouse databases</b>
+<br> d. Other data lakes
+ <br><b>e. Historical data stores</b>
+<br><br>
+<h3>An entity-relationship diagram shows data modeled into (Choose the best answer.) </h3>
+a. Multidimensional tables 
+<br><b>b. Two-dimensional tables </b>
+<br>c. Object-oriented structures 
+<br>d. Hierarchical structures
+<br><br>
+<h3>The TIME_ZONE session parameter may be set to: </h3>
+<b>a. OS local time zone
+<br>b. A named region
+<br>c. Database time zone</b>
+<br>d. A relative offset
+<br><br>
+<h3>Indexes must be created manually and serve to speed up access to rows in a table</h3>
+True
+<br><b>False</b>
+<br><br>
+<h3>Which of these statements will produce an error? </h3>
+a. select 'My project id is' || project_id || 'id' from project;
+<br>b. select 'Award ID# ' || award_id || ' was presented on ' || date_awarded || 'to employee' || employee_id <br>from employee_award;
+<br><b>c. select first_name || ' ' || last_name || 'is a great employee" from employee;</b>
+<br>d. select ' ' || ' ' || award_desc || ' ' from award;
+<br><br>
+<h3>Choose one false statement about the ORDER BY clause. </h3>
+<b>a. The ORDER BY clause specifies one or more terms by which the retrieved rows are sorted. These 
+terms can only be column names. </b>
+<br>b. When using the ORDER BY clause, it always appears as the last clause in a SELECT statement. 
+<br>c. Positional sorting is accomplished by specifying the numeric position of a column as it appears in the 
+SELECT list, in the ORDER BY clause. 
+<br>d. The ORDER BY clause may appear in a SELECT statement that does not contain a WHERE clause.
+<br><br>
+<h3>Which of these is not a valid SELECT statement (refer to the EMPLOYEES tables, if needed)? </h3>
+a. select address_ id from address;  
+<br><b>b. select project_description from project; 
+c. select LAST_NAME from employee;</b>
+<br>d. select employee_id from email;
+<br><br>
+<h3>Identify two set operator guidelines. </h3>
+a. Parentheses may not be used to alter the sequence of execution. 
+<br><b>b. The data type of each column in the second query must match the data type of its corresponding 
+column in the first query. </b>
+<br>c. The ORDER BY clause can be used only once in a compound query, unless a UNION ALL operator is used. 
+<br><b>d. The expressions in the SELECT lists must match in number.</b>
+<br><br>
+<h3>Choose any incorrect statements regarding conversion functions. </h3>
+a. TO_CHAR may convert date items to character items.
+<br><b>b. TO_DATE may convert date items to character items.</b>
+<br>c. TO_CHAR may convert numbers to character items.
+<br>d. TO_DATE may convert character items to date items.
+<br><br>
+<h3>What value is returned after executing the following statement? SELECT REPLACE('How_long_is_a_piece_of_string?','_','') FROM DUAL; </h3>
+<br><b>a. Howlongisapieceofstring?</b>
+<br>b. How_long_is_a_piece_of_string?
+<br>c. None of the above
+<br>d. How long is a piece of string?
+<br><br>
+<h3>Which of these is not a valid SQL statement? </h3>
+a. select website_url from website;
+<br><b>b. select from award_date award;</b>
+<br>c. select first_name from employee;
+<br>d. select * from message;
+<br><br>
+<h3>If you join a table to itself, what kind of join are you using? </h3>
+a. Right OUTER join
+<br><b> b. Self-join</b>
+<br> c. Full OUTER join
+<br> d. Cartesian products
+<br> e. Left OUTER join
+<br> f. Nonequijoin
+<br> g. Natural join
+<br><br>
+<h3>What command is used in SQL to display the column names of a table? </h3>
+a. SYSDATE
+<br> b. INSERT
+<br> c. DISTINCT
+<br><b> d. DESCRIBE</b>
+<br><br>
+<h3>Which of these statements will produce a column header of "Blog Description"?</h3>
+a. select blog_description from blog;
+<br> b. select blog_desc 'Blog_Description' from blog;
+<br> c. select blog_desc "BLOG_DESCRIPTION" from blog;
+<br><b> d. select blog_desc as "Blog Description" from blog;</b>
+<br><br>
+<h3>Which of these constructs is not part of the SQL language? (Choose all that apply.) </h3>
+<br><b>a. Iteration, based on FOR..NEXT
+<br> b. Branching, based on IF..THEN..ELSE</b>
+<br> c. Transaction control, based on ROLLBACK
+<br> d. Transaction control, based on COMMIT
+ <br><b>e. Iteration, based on DO..WHILE</b>
+<br><br>
+<h3>With a correlated subquery, the inner SELECT statement drives the outer SELECT statement</h3>
+True
+<br><b>False</b>
+<br><br>
+<h3>Which two of the following conditions are equivalent to each other? </h3>
+<br><b>a. WHERE COMMISSION_PCT IS NULL  </b>
+<br>b. WHERE COMMISSION_PCT IN (NULL) 
+<br>c. WHERE COMMISSION_PCT = NULL 
+<br><b>d. WHERE NOT(COMMISSION_PCT IS NOT NULL) </b>
+<br><br>
+<h3>Choose one correct statement regarding group functions. </h3>
+<br>a. Group functions may only be used when a GROUP BY clause is present.
+<br> b. Group functions can execute multiple times within a single group.
+<br><b> c. Group functions can operate on multiple rows at a time.</b>
+ <br>d. Group functions only operate on a single row at a time.
+<br><br>
+<h3>Choose the correct syntax to return all columns and rows of data from the EMPLOYEES table. </h3>
+a. select . from employees;
+<br> b. select employee_id, first_name, last_name, first_name, department_id from employees;
+<br> <b>c. select * from employees;</b>
+<br> d. select all from employees;
+ <br>e. select % from employees
+<br><br>
+<h3>Which of the following statements could be used to display the current date on the database server (choose all that apply)? </h3>
+a. select timestamp from dual;
+<br><b> b. select current_timestamp from dual;
+<br> c. select sysdate from dual;</b>
+ <br>d. select current_sysdate from dual;
+<br> e. select dual from dual;
+<br><br>
+<h3>Any column or expression in the SELECT list that is not an aggregate function must be in the GROUP BY clause: </h3>
+<b>True</b>
+<br>False
+<br><br>
+<h3>SELECT TO_CHAR(1234.49, '999999.9') FROM DUAL; </h3>
+a. 001234.5
+<br> b. 1234.49
+<br><b> c. 1234.5</b>
+<br> d. None of the other answers
+<br><br>
+<h3>Which of the following statements will produce an error? </h3>
+a. select null from employee;
+<br> b. select null from dual;
+ <br>c. select 50/null from dual;
+<br><b> d. None of the above</b>
+<br><br>
+<h3>Which of these statements will produce the following result: Always remember your spaces when using concatenation? </h3>
+a. select 'Always remember ' || 'your spaces' || 'when using conc' || 'at' || 'e' || 'nation' from dual;
+<br><b> b. select 'Always remember ' || 'your spaces wh' || 'en using con' || 'cat' || 'enation' from dual;</b>
+<br> c. select 'Always remember ' || 'your spaces wh' || 'en using con' || 'cat' || 'enation'
+ <br>d. select 'Always remember ' || 'your spaces when ' || ' using conc' || ' at ' || 'enation' from dual
+<br><br>
+<h3>The following statements produce the same results: </h3>
+DELETE FROM copy_emp; TRUNCATE TABLE copy_emp;
+<br>True
+<br><b>False</b>
+<br><br>
+<h3>What value is returned after executing the following statement: SELECT SUBSTR('How_long_is_a_piece_of_string?', 5,4) FROM DUAL; (Choose the best answer.) </h3>
+a. None of the other answers
+<br> b. _long
+<br><b> c. long</b>
+<br> d. string?
+<br><br>
+<h3>You can use the row_limiting_clause to extend the rows that are returned by a query</h3>
+True
+<br><b>False</b>
+<br><br>
+<h3>Similar to single-row functions, group functions operate on sets of rows to give one result per group. </h3>
+True
+<br><b>False</b>
+<br><br>
+<h3>Using a subquery is equivalent to performing two sequential queries and using the result of the first query as the search values in the second query. </h3>
+<b>True</b>
+<br>False
+<br><br>
+<h3>In which of these statements is case preserved? </h3>
+a. SElect * from employee;
+<br> b. SelECt diSTINCT branch_ID, BRANCH_name from branch;
+<br><b> c. select first_name "My Name" from employee;</b>
+<br> d. SELECT BLOG_ID FROM BLOG;
+<br><br>
+
+<h3>Identify the two guidelines for group functions and the GROUP BY clause</h3>
+<b>a) you cannot use a column alias in the GROUP BY clause</b>
+<br> b)The GROUP BY column must be in the SELECT clause.
+<b>c) By using a WHERE clause , you can exclude rows before dividing them into groups</b>
+<br> d) The GROUP BY clause groups rows and ensures order of the result set.
+<br> e) If you include a group function in a SELECT clause , you must include a GROUP BY clause.
+<br><br>
+<h3>Oracle Linux offers a Red Hat-compatible kernel as well as a kernel that is optimized for Oracle applications</h3>
+<b>True</b>
+<br>False
+<br><br>
+<h3>Which four of the following statements are true about single row functions? </h3>
+<b>a) Manipulate data items</b>
+<br> b) Accept arguments and return one value per argument
+ <br><b>c) Act on each row that is returned</b>
+ <br>d) Return one result per set of rows
+ <br>e) Never modifies the data type
+<b> f) Can pe nested
+<br> g) Accept arguments  that can be a column or an expression</b>
+<br><br>
+<h3>Virtualization is when virtual machines are created as part of one physical machine, and share the same hardware resources. </h3>
+<b>True</b>
+<br>False
+<br><br>
+<h3>Why should you use virtualization? </h3>
+a) To take full advantage of todays enterprise computing resources
+<br> b) To consolidate physical machine
+<br> c) To reduce costs
+ <br><b>d) All of the above</b>
+ <br>e) None of the above
+<br><br>
+<h3>All machines run independently, so its easy to test and run software applications. TRUE</h3>
+<br><br>
+<h3>when the number of major and minor components of the Key increases, the performance of anapplication improves:  FALSE</h3>
+<br><br>
+<h3> Infrastructure as a Service (IaaS) is a form of cloud computing that provides only storage services over the internet 	FALSE</h3>
+<br><br>
+<h3>All machines must use the same (guest ) operating system   FALSE</h3>
+<br><br>
+<h3>Following the previous slides, one student believes that Oracle NoSQL Database is just Oracle Berkeley DB Java Edition whit some extra items added. Do you agree with him?  NO</h3>
+<br><br>
+<h3>A high consistency guarantee policy specifies that a record in the replica nodes has a high probability of being identical to the same record in the master node ? TRUE  </h3>
+<br><br>
+<h3>IaaS is the only service model in cloud computing FALSE </h3>
+<br><br>
+<h3>Place the following features in the correct column in the table </h3>
+NoSQL : 
+<br>2. Schema is application-defined
+<br>4 Stores low-value data 
+<br>5 Data can be structured or unstructured 
+<br>RDBMS: 
+<br>1 Stores high value data 
+<br>3 Data is highly structured 
+<br>6 Schema is self-describing 
+  <br><br>
+</h3>What does the hypervisor do? </h3>
+a) Crates platforms for( guest) operating systems
+<br>b) Creates virtual machines
+<br>c) Provides virtual hardware
+<br><b>d) All of the above</b>
+<br>e) None of the above
+<br><br>
+
+
   </body>
 </html>
